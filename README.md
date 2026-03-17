@@ -209,14 +209,16 @@
 
 <br>
 
-## 5.트러블 슈팅 (Technical Challenges)
+## 5. 트러블 슈팅 & Deep Dive (Technical Challenges)
 
-개발 과정에서 마주친 기술적 문제와 해결 과정을 GitHub Wiki에 정리했습니다.
+프로젝트를 진행하며 직면한 기술적 도전과 이를 해결하기 위한 의사결정 과정을 GitHub Wiki에 상세히 기록하였습니다. 각 항목을 클릭하면 상세 페이지로 이동합니다.
 
-- [데이터 무결성 보장을 위한 트랜잭션 및 배치 처리](https://github.com/본인ID/레포지토리명/wiki/트러블슈팅-1.-데이터-무결성-보장)
-- [반응형 UI 구현 및 렌더링 최적화 (LayoutBuilder & RepaintBoundary)](https://github.com/본인ID/레포지토리명/wiki/트러블슈팅-2.-UI-최적화)
-- [복잡한 날짜 필터링 및 가상 객체(Virtual Object) 설계](https://github.com/본인ID/레포지토리명/wiki/트러블슈팅-3.-캘린더-필터링-알고리즘)
-- [과거 기록 보존을 위한 Soft Delete 전략](https://github.com/본인ID/레포지토리명/wiki/트러블슈팅-4.-Soft-Delete-전략)
+| 주제 | 핵심 기술 및 해결 방안 | 상세 보기 |
+| :--- | :--- | :---: |
+| **데이터 무결성 보장** | Firebase Transaction, WriteBatch, 원자적 연산 | [📄 Wiki](https://github.com/dkdlxl99/to-doong-archive/wiki/[데이터-무결성]-Firebase-트랜잭션과-배치-처리를-활용한-안정적인-결제-보상-시스템) |
+| **리소스 최적화** | Widget Lifecycle, LayoutBuilder, 반응형 UI 설계 | [📄 Wiki](https://github.com/dkdlxl99/to-doong-archive/wiki/[리소스-최적화]-Flutter-위젯-생명주기-관리-및-반응형-UI-구현-기술) |
+| **데이터 아키텍처** | Timestamp Range Query, Virtual Object(VO), Soft Delete | [📄 Wiki](https://github.com/dkdlxl99/to-doong-archive/wiki/[데이터-아키텍처]-NoSQL-환경에서의-복잡한-쿼리-설계-및-가상-객체(VO)-활용) |
+| **버전 관리 전략** | Feature Branch Workflow, Git Flow, Conflict Resolution | [📄 Wiki](https://github.com/dkdlxl99/to-doong-archive/wiki/[버전-관리]-Git-Flow-전략-및-효과적인-충돌-해결-프로세스) |
 
 <br>
 
