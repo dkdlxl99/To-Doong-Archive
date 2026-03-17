@@ -12,7 +12,8 @@
 <br/>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ab596c4f-859a-400c-aa4c-cb7d7917a1b9" alt="Main Screen" width="800" style="border-radius: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/041a1669-bc62-4a6b-a65a-de2c75e00391" alt="Main Screen" width="800" style="border-radius: 10px;"/>
+
   <br/><br/>
   <p><i>"매일 조금씩 자라나는 습관, 더 나은 내일을 준비해 볼까요?"</i></p>
 </div>
