@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
   <br/><br/>
-  <h1>TODO Character (투두 캐릭터)</h1>
   <p>🎮 할 일을 완료하고, 나만의 캐릭터를 성장시키는 즐거움! 🎮</p>
 </div>
 
