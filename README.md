@@ -42,7 +42,7 @@
 
 | **🐶 팀장** | **🐱 팀원** |
 | :------: | :------: |
-| <img src="https://avatars.githubusercontent.com/u/00000000?v=4" height=150 width=150> | <img src="https://github.com/user-attachments/assets/72069b1d-e87e-4916-9eae-aebd5e446fe9" height=150 width=150> |
+| <img src="https://github.com/user-attachments/assets/f406f5b7-0fae-44c9-9f77-93f7099baebd" height=150 width=150> | <img src="https://github.com/user-attachments/assets/72069b1d-e87e-4916-9eae-aebd5e446fe9" height=150 width=150> |
 | **[@정선우](https://github.com/sunwoo9801)** | **[@변다혜](https://github.com/dkdlxl99)** |
 | **기획 & UI 디자인** | **코어 로직 & DB 설계** |
 | **기획:** 서비스 전반 기획 및 정책 수립<br>**기능:** 할 일 생성(Create), 진화 쉐이크 애니메이션 구현<br>**UI 구현:** 프롤로그(온보딩) 및 캘린더 UI 렌더링<br>**인증:** Firebase Auth 기본 계정 연동<br>**디자인:** 캐릭터(투둥이) 및 가구 에셋 디자인, 목업 설계 | **DB 설계:** Firestore NoSQL 구조 설계 및 전체 연동<br>**핵심 기능:** 할 일 RUD 및 루틴 CRUD 전체 로직 개발<br>**게임 시스템:** 캐릭터 진화 알고리즘, 상점 및 인벤토리 시스템 구현<br>**부가 기능:** Google 소셜 로그인, 쉬어가기(Rest) 예외 처리 로직<br>**데이터:** Radar Chart 및 히트맵 등 전체 통계 시스템 구축 |
