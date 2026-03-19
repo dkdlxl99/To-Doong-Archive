@@ -47,6 +47,8 @@
 | **기획 & UI 디자인** | **코어 로직 & DB 설계** |
 | **기획:** 서비스 전반 기획 및 정책 수립<br>**기능:** 할 일 생성(Create), 진화 쉐이크 애니메이션 구현<br>**UI 구현:** 프롤로그(온보딩) 및 캘린더 UI 렌더링<br>**인증:** Firebase Auth 기본 계정 연동<br>**디자인:** 캐릭터(투둥이) 및 가구 에셋 디자인, 목업 설계 | **DB 설계:** Firestore NoSQL 구조 설계 및 전체 연동<br>**핵심 기능:** 할 일 RUD 및 루틴 CRUD 전체 로직 개발<br>**게임 시스템:** 캐릭터 진화 알고리즘, 상점 및 인벤토리 시스템 구현<br>**부가 기능:** Google 소셜 로그인, 쉬어가기(Rest) 예외 처리 로직<br>**데이터:** Radar Chart 및 히트맵 등 전체 통계 시스템 구축 |
 
+<br>
+
 ## 3. 기술 스택
 
 ### **Frontend**
@@ -220,7 +222,21 @@
 
 <br>
 
-## 5. 트러블 슈팅 & Deep Dive (Technical Challenges)
+
+## 5. 데이터베이스 구조 (ERD)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/16e38949-4800-4048-9bdd-36da7fbd04d0" alt="Raising Todo ERD" width="800" style="border-radius: 10px; border: 1px solid #eee;"/>
+</div>
+
+### NoSQL 기반 최적화 설계 포인트
+* **Habit과 Todo의 분리 (Blueprint 패턴):** `Habits` 컬렉션은 반복 규칙만 저장하고, 해당 조건이 만족될 때만 `Todos` 문서를 생성하여 Firestore의 스토리지 및 쿼리 비용을 최소화했습니다.
+* **Embedded Data 적용:** 관계형 DB라면 분리했을 방 꾸미기 위치(`itemPositions`)나 인벤토리(`inventory`) 데이터를 `Character` 문서의 하위 필드(Map, List)로 내장하여 한 번의 읽기(Read)로 캐릭터 관련 렌더링이 가능하도록 설계했습니다.
+* **통계를 위한 외래키(FK) 참조:** 동적으로 생성된 `Todo` 문서에 원본 `habitId`를 남겨두어, 특정 루틴의 주간/월간 달성률(Progress)을 추적할 수 있도록 구성했습니다.
+
+<br>
+
+## 6. 트러블 슈팅 & Deep Dive (Technical Challenges)
 
 프로젝트를 진행하며 직면한 기술적 도전과 이를 해결하기 위한 의사결정 과정을 GitHub Wiki에 상세히 기록하였습니다. 각 항목을 클릭하면 상세 페이지로 이동합니다.
 
