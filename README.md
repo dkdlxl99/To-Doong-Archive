@@ -249,7 +249,7 @@
 
 <br>
 
-## 6. 프로젝트 구조
+## 7. 프로젝트 구조
 ```text
 TODOLIST
 ├── android
